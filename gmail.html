@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>GmailClone</title>
+</head>
+  <body style="font-family: arial,sans-serif;">
+    <!-- Header Starts -->
+   <div class="header">
+      <div class="headerLeft">
+         <span class="material-icons"> menu </span>
+         <img src="Assets/gmaillogo.jpg" alt="logo" />
+      </div>
+        <div class="headerMiddle">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Search mail" />
+          <span class="material-icons"> tune </span>
+       </div>
+
+        <div class="headerRight">
+           <span class="material-icons"> apps </span>
+          <span class="material-icons"> notifications </span>
+          <span class="material-icons"> account_circle </span>
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="mainBody">
+      <!-- Sidebar Starts -->
+        <div class="sidebar">
+          <button class="sidebarCompose">
+             <span class="material-icons"> add 
+
+             </span>
+                   Compose
+          </button>
+          <div class="sidebarOption sidebarOptionActive">
+             <span class="material-icons"> inbox </span>
+              <h6>Inbox</h6>
+          </div>
+
+         <div class="sidebarOption">
+            <span class="material-icons"> star </span>
+             <h6>Starred</h6>
+          </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> access_time </span>
+          <h6>Snoozed</h6>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> label_important </span>
+          <h6>Important</h6>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> send </span>
+          <h6>Sent</h6>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> note </span>
+          <h6>Drafts</h6>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> expand_more </span>
+          <h6>More</h6>
+        </div>
+      
+        <div class="sidebarOption">
+          <span class="material-icons">video_call</span>
+          <h6>new meeting</h6>
+        </div>
+        <div class="sidebarOption">
+          <span class="material-icons">keyboard</span>
+          <h6>Join a Meeting</h6>
+        </div>
+        <div class="sidebarFooter">
+          <div class="sidebarFooterIcons">
+            <span class="material-icons"> person </span>
+            <span class="material-icons"> duo </span>
+            <span class="material-icons"> phone </span>
+          </div>
+        </div>
+    </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Email List Starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailListSettings">
+          <div class="emailListSettingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons"> arrow_drop_down </span>
+            <span class="material-icons"> refresh </span>
+            <span class="material-icons"> more_vert </span>
+          </div>
+          <div class="emailListSettingsRight">
+            <span class="material-icons"> chevron_left </span>
+            <span class="material-icons"> chevron_right </span>
+            <span class="material-icons"> keyboard_hide </span>
+            <span class="material-icons"> settings </span>
+        </div>
+      </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+        <div class="emailListSections">
+          <div class="section sectionSelected">
+            <span class="material-icons"> inbox </span>
+            <h4>Primary</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> people </span>
+            <h4>Social</h4>
+          </div>
+
+          <div class=" section">
+            <span class="material-icons"> local_offer </span>
+            <h4>Promotions</h4>
+          </div>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
+        <div class="emailListList">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+              <h3 class="emailRowTitle">Test</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Subject Topic
+                <span class="emailRowDescription">-Body Template </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime"> 12 am</p>
+        </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox"  name="gmail" id="gmail1"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Spotify</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Confirm your Account
+                <span class="emailRowDescription"> - WELCOME TO SPOTIFY.CONFIRM YOUR ACCOUNT</span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">4 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail2"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Gmail Team</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+               Tips for using your new inbox
+               <span class="emailRowDescription">
+                  -Welcome to your Find emails fast With the power of google...
+               </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">12 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail3"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Google</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Login on New Device
+                <span class="emailRowDescription">
+                      - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+               <p class="emailRowTime"> 8 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail4"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Test</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Subject Topic
+                <span class="emailRowDescription"> - Body Template </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">5:30 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRoOptions">
+              <input type="checkbox" name="gmail" id="gmail5"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Google</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Login on New Device<span class="emailRowDescription">
+                  - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">11:30 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+           <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail6"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Test</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Subject Topic
+                <span class="emailRowDescription"> - Body Template </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime"> 9 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail7"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Microsoft Account</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Verify your email adress <span class="emailRowDescription">
+                  - Microsoft account verify your email address To Finishh Setting Up....  </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime"> 5 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail8"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Test</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Subject Topic
+                <span class="emailRowDescription"> - Body Template </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">12 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail9"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Google</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Login on New Device<span class="emailRowDescription">
+                  - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail10"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Test</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Subject Topic
+                <span class="emailRowDescription"> - Body Template </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+      <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRowOptions">
+              <input type="checkbox" name="gmail" id="gmail11"/>
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRowTitle">Google</h3>
+
+            <div class="emailRowMessage">
+              <h4>
+                Login on New Device<span class="emailRowDescription">
+                  - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRowTime">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+        </div>
+        <!-- Email List rows Ends -->
+      </div>
+      <!-- Email List Ends -->
+    </div>
+    <!-- Main Body Ends -->
+  </body>
+</html>
