@@ -6,8 +6,8 @@
  /* Header */
   .headerLeft img {
     object-fit: contain;
-    height: 60px;
-    margin-left: px;
+    margin-left: 10px;
+    width:60px;
   }
   
   .header {
@@ -15,31 +15,25 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid whitesmoke;
-    height: 50px;
   }
   
   .headerLeft {
     display: flex;
     align-items: center;
   }
-  
-  .headerLeft span {
-    padding: 8px;
-    cursor: pointer;
-  }
+
   
   .headerMiddle {
     display: flex;
     flex: 0.6;
     align-items: center;
     background-color: whitesmoke;
-    padding: 1px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: medium;
   }
   
-  .material-icons {
-    color: gray;
+  .headerMiddle  img{
+     width:25px;
   }
   
   .headerMiddle input {
@@ -56,34 +50,29 @@
     padding-right: 20px;
   }
   
-  .headerRight span {
-    padding: 10px;
-    cursor: pointer;
+  .headerRight img{
+    width:25px;
+    padding-left:20px;
   }
   
 
   /* Sidebar */
   .sidebar {
     flex: 0.2;
-    max-width: 180px;
+    max-width: 150px;
     padding-right: 3px;
     overflow-y: scroll;
-    width: 150px;
+    width: 100px;
   
   }
-  @media screen(max-width:500px) {
-    body{
-        background-color: lightgreen;
-    }
-    }
-  .sidebarCompose {
-    margin-top: 15px;
-    margin-left: 15px;
+ .sidebarCompose {
+    margin-top: 5px;
+    margin-left: 5px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: gray;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 25px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -94,9 +83,10 @@
     font-family: serif;
   }
   
-  .sidebarCompose span {
-    margin-right: 7px;
+  .sidebarCompose img {
+    margin-right: 5px;
     color: rgba(255, 0, 0, 1.0);
+    width: 20px;
   }
   
   .sidebarOption {
@@ -110,10 +100,12 @@
     color: #818181;
   }
   
-  .sidebarOption .material-icons {
+  .sidebarOption img{
     padding: 4px;
     font-size:x-small;
     margin: 3px;
+    width:15px;
+    color: grey;
   }
   
   .sidebarOption h4 {
@@ -148,9 +140,10 @@
     float: left;
   }
   
-  .sidebarFooterIcons .material-icons {
+  .sidebarFooterIcons img {
     margin: 3px;
     cursor: pointer;
+    width:20px;
   }
   
   /* main body */
@@ -184,12 +177,13 @@
     align-items: center;
   }
   
-  .emailListSettings .material-icons {
+  .emailListSettings img {
     margin: 3px;
     cursor: pointer;
     font-weight: lighter;
     font-size:x-small ;
     font-size-adjust: 2;
+    width:15px;
   }
   
   .section {
@@ -202,7 +196,9 @@
     color: grey;
     border-width: 0;
   }
-  
+  .section img{
+    width:20px;
+  }
   .emailListSections {
     position: sticky;
     top: 3;
@@ -219,17 +215,14 @@
     border-bottom: 3px solid red;
     font-size: small ;
     padding-right: 5px;
-    width: 20%;
     padding: 1px;
     margin: 1px;
   }
   
-  .sectionSelected .material-icons {
+  .sectionSelected img {
     color: red;
     font-weight: normal;
-     padding: 3px;
-    font-size: medium;
-     margin: 2px;
+    width:10px;
   }
   
   .section:hover {
@@ -252,11 +245,11 @@
     height: 30px;
   }
   
-  .emailRowOptions .material-icons,
+  .emailRowOptions img,
   input {
-    margin: 3px;
-    padding: 3px;
-    width: 10px;
+    margin: 1px;
+    padding: 1px;
+    width: 15px;
   }
   
   .emailRow {
@@ -284,14 +277,15 @@
     align-items: center;
     font-size: 10px;
     width: 2px;
+    padding:12px ;
   }
   
   .emailRowMessage h4 {
-     width: 1px;
+     width: 2px;
     white-space: nowrap;
     text-overflow: ellipsis;
     float: left ;
-    padding-left: 0px;
+    padding-left:1px;
     margin-left: 1px;
     font-weight: lighter;
   }
@@ -342,8 +336,9 @@
     width:20px;
   }
   .sidebar{
-    width:20px;
-    font-weight:10px;
+    width:10px;
+    font-weight:5px;
     font-size:10px;
+    padding:2px;
   }
 }
