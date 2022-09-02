@@ -3,13 +3,7 @@
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  @media screen(max-width:768px) {
-    [class*="col-"]{
-        width: 100%;
-    }
-    
-  }
-  /* Header */
+ /* Header */
   .headerLeft img {
     object-fit: contain;
     height: 60px;
@@ -67,6 +61,7 @@
     cursor: pointer;
   }
   
+
   /* Sidebar */
   .sidebar {
     flex: 0.2;
@@ -302,7 +297,7 @@
   }
   
   .emailRowTitle {
-    font-size: 8px;
+    font-size: 10px;
     flex: 0.2;
     padding-right:1px;
     font-weight:lighter;
@@ -311,7 +306,7 @@
   
   .emailRowTime {
       padding-right: 10px;
-      font-size: 8px;
+      font-size: 10px;
      font-weight: normal;
   
   }
@@ -320,20 +315,35 @@
     font-weight: 100;
     color: gray;
   }
-  /*LAPTOP(1024)*/
-  @media screen and (max-width:1024px) {
-    body{
-        width: 50%;
-    }
+  /*For Dektop*/
+ @media (max-width:1024px) {
+  body{
+    background-color:lightblue;
+  }
+  .emailRowOptions{
+  font-size:x-large;
 }
-  /*TABLET(768)*/
-  @media screen and (max-width:768px) {
-    body{
-        width: 50%;
-    }
-    /*MOBILE(320)*/
-    @media screen and(max-width:551) {
-        body{
-        width:100%;
-        }
-    }
+}
+/*For Tablets*/
+@media (max-width:768px){
+  .sidebar{
+    font-size:20px ;
+  }
+  .emailListSettings{
+    color:white;
+  }
+}
+/*For Mobiles*/
+@media (max-width:320px){
+  .emailRowMessage{
+    font-size: 10px;
+  }
+  .header{
+    width:20px;
+  }
+  .sidebar{
+    width:20px;
+    font-weight:10px;
+    font-size:10px;
+  }
+}
